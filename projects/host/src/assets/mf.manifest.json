@@ -1,0 +1,9 @@
+{
+	"mfPokemon": {
+    "remoteEntry": "http://localhost:4201/remoteEntry.js",
+    "exposedModule": "./FormModule",
+    "displayName": "mfPokemon",
+    "routePath": "form",
+    "ngModuleName": "FormModule"
+}
+}

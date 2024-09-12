@@ -1,0 +1,14 @@
+<h1 mat-dialog-title>Información del Pokemon</h1>
+<div mat-dialog-content class="dialog">
+  <img  [src]="data.imagen.url"/>
+  <div class="info">
+    <p><b>Nombre:</b> {{data.name}}</p>
+    <p><b>Altura:</b> {{data.height}}</p>
+    <p><b>Anchura:</b> {{data.weight}}</p>
+    <p><b>Tipo:</b> {{pokemonTypes}}  </p>
+  </div>
+
+</div>
+<mat-dialog-actions align="center">
+  <button mat-button mat-dialog-close>Cerrar</button>
+</mat-dialog-actions>
